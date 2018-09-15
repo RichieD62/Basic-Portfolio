@@ -2,11 +2,14 @@ header{
    background-color: #4aaaa5;
    color: #ffffff;
    border-color: #cccccc;
-   font-family: Georgia, 'Times New Roman', Times, serif;
-   padding-left: 20px;  
+   font-family: Georgia, 'Times New Roman', Times, serif; 
+   width: 960px;
+   margin-left: 200px;
 }
 
-
+body{
+    background-color: #ffffff;
+}
 
 img{
     float: left;
@@ -19,5 +22,28 @@ img{
     width:960px;
     background-color: #ffffff;
     border-color: #dddddd;
+    border-radius: 5px;
     font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+    padding: 10px;
+    margin: 200px;
+    margin-top: 50px;
+}
+
+#Name-Space{
+    width:960px;
+}
+
+#Email-Space{
+    width: 960px;
+}
+
+#Message-Space{
+    width: 960px;
+    height: 300px;
+}
+
+.header-link{
+    float: right;
+    
 }
