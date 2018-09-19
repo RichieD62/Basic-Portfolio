@@ -7,17 +7,34 @@ header{
 
 body{
     background-color: #ffffff;
+    background-image: url("../images/gravel.png");
+    color: #777777;
+}
+
+hr{
+    width: 900px;
 }
 
 #ProfileImage{
     float: left;
-    width: 225px;
-    height: 225px;
+    width: 150px;
+    height: 150x;
     padding-right: 20px;
+    padding-left: 15px;
+}
+
+#p1{
+    padding-right: 10px;
+}
+
+#p3{
+    padding-left: 15px;
+    padding-right: 10px;
 }
 
 .container{
-    width:960px;
+    width: 960px;
+    min-height: 100%;
     margin: 0 auto;
     background-color: #ffffff;
     border-color: #dddddd;
@@ -26,29 +43,75 @@ body{
     clear: both;
 }
 
+h2{
+    color: #000000;
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+.main{
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+#main-portfolio{
+    padding: 20px;
+    padding-bottom: 250px;
+}
+
+#copyright{
+    padding-top: 35px;
+    font-size:10px;
+}
+
+footer{
+    text-align: center;
+    background-color:#666666;
+    position: relative;
+    margin-top: -50px;
+    height: 50px;
+    clear: both;
+    margin: 0 -10px -10px -10px;
+}
+
+
 #contact{
-    padding-top: 20px;
+    padding-left: 15px;
 }
 
 #Portfolio{
-    padding-top: 20px;
+    padding-left: 15px; 
 }
 
 #about{
-    padding-top: 20px;
+    padding-left: 15px;
 }
 
 #Name-Space{
-    width:960px;
+    width:900px;
 }
 
 #Email-Space{
-    width: 960px;
+    width: 900px;
 }
 
 #Message-Space{
-    width: 960px;
-    height: 300px;
+    width: 900px;
+    height: 250px;
+}
+
+.name-email-message{
+    padding-left: 15px;
+}
+
+.whole-nav{
+    background-color: #fff;
+    height: 90px;
+    position: relative;
+    margin: -10px -10px 20px -10px;
 }
 
 .top-nav{
@@ -70,15 +133,15 @@ body{
 .top-nav-right{
     clear: both;
     float: right;
-    margin-top: -18px;
-    margin-right: 280px;
+    margin-top: -30px;
+    margin-right: 275px;      
 }
 
 
 #hangman{
     position: absolute;
-    left: 285px;
-    top: 290px;
+    left: 5px;
+    top: 125px;
     background-color: #4aaaa5;
     width: 200px;
     height: 50px;
@@ -87,8 +150,8 @@ body{
 
 #trivia{
     position: absolute;
-    left: 545px;
-    top: 290px;
+    left: 5px;
+    top: 340px;
     background-color: #4aaaa5;
     width: 200px;
     height: 50px;
@@ -97,8 +160,8 @@ body{
 
 #rps{
     position: absolute;
-    left: 285px;
-    top: 720px;
+    left: 5px;
+    top: 555px;
     background-color: #4aaaa5;
     width: 200px;
     height: 50px;
@@ -107,8 +170,8 @@ body{
 
 #rpg{
     position: absolute;
-    left: 285px;    
-    top: 505px;
+    left: 265px;    
+    top: 125px;
     background-color: #4aaaa5;
     width: 200px;
     height: 50px;
@@ -117,8 +180,8 @@ body{
 
 #rutgers{
     position: absolute;
-    left: 545px;
-    top: 505px;
+    left: 265px;
+    top: 340px;
     background-color: #4aaaa5;
     width: 200px;
     height: 50px;
@@ -127,7 +190,13 @@ body{
 
 #row1{
     float: left;
-    margin-right: 50px;s
+    margin-right: 50px;
+    position: relative;
+    left: 15px;
+}
+
+#row2{
+    position: relative;
 }
 
 .image{
@@ -135,3 +204,9 @@ body{
     height: 200px;
     width: 200px;
 }
+
+
+
+
+
+
