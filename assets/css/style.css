@@ -156,7 +156,7 @@ footer{
     top: 125px;
     background-color: #4aaaa5;
     width: 200px;
-    height: 50px;
+    height: 30px;
     text-align: center;
 }
 
@@ -166,7 +166,7 @@ footer{
     top: 340px;
     background-color: #4aaaa5;
     width: 200px;
-    height: 50px;
+    height: 30px;
     text-align: center;
 }
 
@@ -176,7 +176,7 @@ footer{
     top: 555px;
     background-color: #4aaaa5;
     width: 200px;
-    height: 50px;
+    height: 30px;
     text-align: center;
 }
 
@@ -186,7 +186,7 @@ footer{
     top: 125px;
     background-color: #4aaaa5;
     width: 200px;
-    height: 50px;
+    height: 30px;
     text-align: center;
 }
 
@@ -196,7 +196,7 @@ footer{
     top: 340px;
     background-color: #4aaaa5;
     width: 200px;
-    height: 50px;
+    height: 30px;
     text-align: center;
 }
 
@@ -215,6 +215,13 @@ footer{
     margin: 5px;
     height: 200px;
     width: 200px;
+}
+
+.port-image{
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+    text-decoration: none;
 }
 
 
