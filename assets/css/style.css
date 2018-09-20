@@ -17,10 +17,13 @@ hr{
 
 #ProfileImage{
     float: left;
-    width: 150px;
-    height: 150x;
-    padding-right: 20px;
-    padding-left: 15px;
+    width: 200px;
+    height: 200px;
+    padding: 20px 20px 55px 15px;
+}
+
+.bio{
+    font-size: 18px;
 }
 
 #p1{
@@ -31,6 +34,9 @@ hr{
     padding-left: 15px;
     padding-right: 10px;
 }
+
+
+
 
 .container{
     width: 960px;
@@ -123,18 +129,24 @@ footer{
     margin-left: 280px;
 }
 
-.topnav a{
-    float: left;
-    color: color #ffffff;
-    text-align: center;
-    padding: 14px 16px;
+.top-nav-right > a{
+    text-decoration: none;
+    color: #777777;
+    margin: 5px;
 }
+
+.top-nav-right > a:hover{
+    background-color: #4aaaa5;
+    color: #666666;
+}
+
+
 
 .top-nav-right{
     clear: both;
     float: right;
-    margin-top: -30px;
-    margin-right: 275px;      
+    margin-top: -45px;
+    margin-right: 275px; 
 }
 
 
